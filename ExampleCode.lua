@@ -1,0 +1,1 @@
+local Tween3D = require(game:GetService("ServerScriptService"):FindFirstChild("Tween3D_V1").Tween3D):PlayTween(workspace.Part)
