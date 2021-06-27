@@ -1,7 +1,6 @@
 local Tween3D = {}
 local TweenService = game:GetService("TweenService")
 local Settings = require(script.Settings)
-local Maid = require(script.Maid)
 
 local Info = TweenInfo.new(Settings.Duration, Settings.EasingStyle, Settings.EasingDirection)
 local Props = {Size = Settings.Size}
